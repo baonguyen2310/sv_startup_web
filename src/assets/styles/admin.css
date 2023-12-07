@@ -1,0 +1,90 @@
+ul {
+    list-style-type: none;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #07338C;
+    width: 100%;
+}
+
+.container {
+    padding: 5px;
+    background-color: white;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input, button {
+    font-size: 1.5rem;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-item {
+    font-size: 1.6rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: #5F49F2;
+    color: #F2F2F2;
+    max-width: 500px;
+    border: 1px solid #070C26;
+}
+
+.game-item:hover {
+    background-color: #07338C;
+    border-color: #F2F2F2;
+}
+
+.level-list-contaier {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.level-json-container {
+    max-width: 500px;
+    margin-left: 10px;
+}
+
+.level-list {
+    max-width: 500px;
+    margin-left: 10px;
+}
+
+.level-item {
+    font-size: 1.6rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: #5F49F2;
+    color: #F2F2F2;
+    max-width: 500px;
+    border: 1px solid #070C26;
+}
+
+.level-item:hover {
+    background-color: #07338C;
+    border-color: #F2F2F2;
+}
+
+.level-btn {
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #5F49F2;
+    color: #F2F2F2;
+    cursor: pointer;
+}
+
+.level-btn:hover {
+    background-color: #07338C;
+    border-color: #F2F2F2;
+}
